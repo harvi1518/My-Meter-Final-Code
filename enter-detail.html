@@ -1,0 +1,244 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta name = "format-detection" content = "telephone=no">
+<title>Enter Details</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link href="css/animate.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/media.css">
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="js/modernizr.custom.js"></script>
+
+</head>
+<body>
+ <header>
+ <nav class="navbar navbar-default">
+   <div class="container">
+       <div class="navbar-header">
+        <!--<button type="button" class="navbar-toggle collapsed navbar-brand-bar" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar innerpage-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+        </button>-->
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-responsive"></a>
+			<a href="index.html" class="home_icon"><img src="images/home_icon.png" class="img-responsive" alt="home-icon"></a>
+        </div>
+		   <!--<div class="collapse navbar-collapse navbar-right" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="about-us.html">About Us</a></li>
+					  <li><a href="javascript:;">How It Works</a></li>
+					  <li><a href="javascript:;">Features</a></li>
+			   </ul>
+		   </div>-->
+	   </div>
+       </nav>
+ </header>
+	<div class="mymeter-main-detail">
+	<div class="scrr">
+			<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+
+					<div class="main-detail-sec">
+
+						<div class="detail-top">
+
+						</div>
+						<div class="top-scroll">
+
+								<div class="scroll-box act onnn">
+									<div class="one"><img src="images/tick.png" alt=""></div>
+									<h4>Details</h4>
+								</div>
+								<div class="scroll-box scnd dtfm">
+									<div class="one">2</div>
+									<h4>Secure Payment</h4>
+								</div>
+								<div class="scroll-box thrd">
+									<div class="one">3</div>
+									<h4>Done</h4>
+								</div>
+								<hr>
+							</div>
+							</div>
+							</div>
+							</div>
+							</div>
+							</div>
+							<div class="container">
+							<div class="row">
+							<div class="col-md-12">
+							<div class="main-detail-sec">
+							<div class="sp"><img class="meter-correct-icn img-responsive" src="images/1.png"></div>
+							<div class="detail-form mtr-1">
+							<form name="myForm" action="pay.html" onsubmit="return validateForm();" method="post">
+							<form action="method="post">
+							<div class="inner-frm">
+							<h3>Enter your meter details below </h3>
+							<div class="form-group">
+							  <input type="number" placeholder="Meter Number" class="numbrr" pattern="[0-9]*">
+							</div>
+							<div class="form-group">
+							<input class="amm numbrr" type="number" placeholder="Select or type amount" pattern="[0-9]*">
+							</div>
+							<div class="form-group">
+							 <select class="amm mrgn">
+								<option value="volvo">Meter Location</option>
+								<option value="volvo">UK</option>
+								<option value="saab">India</option>
+                            </select>
+							</div>
+							<div class="form-group">
+							<input type="tel" placeholder="Phone Number" class="numbrr form-control" required>
+							</div>
+
+							<input type="email" name="email" placeholder="E-mail" class="form-control" required>
+							<input type="submit" value="Review and buy your meter token" id="sad">
+							
+							<h6>By using this service, I agree to the <a href="http://chroniclestechsolutions.com/Development/mymeter3-new1/terms.html" class="term-condition_btn">Terms & Conditions</a> of mymeter.com.ng</h6>
+						</div>
+						</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}
+</script>
+
+ <!-- <footer class="footer_outer">
+    <div class="container">
+	  <div class="row">
+	    <div class="col-xs-12 col-md-12 col-sm-12 pade_none footer_inner">
+		  <div class="col-xs-12 col-md-4 col-sm-4 pade_none footer_one">
+		    <div class="footer_logo"><img src="images/footer-logo.png" alt=""></div>
+			<h3>Faster, cheaper, safer <br>way to top-up my <br>meter.</h3>
+			<img src="images/footer-logo1.png" alt="">
+			<div class="visa_outer">
+			 <a href="javascript:;"><img src="images/footer-logo2.png" alt=""></a>
+			 <a href="javascript:;"><img src="images/footer-logo3.png" alt=""></a>
+			 <a href="javascript:;"><img src="images/verve.png" alt=""></a>
+
+			</div>
+			<p>&copy; mymeter.com.ng. All Rights reserved.</p>
+
+		  </div>
+		   <div class="col-xs-12 col-md-3 col-sm-3 pade_none footer_two">
+		    <ul>
+			<li><a href="javascript:;">About Us</a></li>
+			<li><a href="javascript:;">How it Works</a></li>
+			<li><a href="javascript:;">Features</a></li>
+			<li><a href="javascript:;">FAQs</a></li>
+			<li><a href="javascript:;">Terms</a></li>
+			</ul>
+			<div class="social_icon">
+			<a href="javascript:;"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="javascript:;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="javascript:;"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+			</div>
+		</div>
+		 <div class="col-xs-12 col-md-5 col-sm-5 pade_none footer_three">
+		 <h2>Contact Us</h2>
+		   <form action="" method="#">
+            <input type="text" name="" value="" placeholder="Your Name" class="name_field">
+			<input type="text" name="" value="" placeholder="Email" class="name_field02">
+			<input type="text" name="" value="" placeholder="Phone" class="name_field02 magin_none">
+             <textarea type="text" name="" value="" placeholder="Your Message"></textarea>
+
+			 <input type="button" value="Send" class="send_button">
+</form>
+	  </div>
+	</div>
+	<a href="#" class="simple-back-to-top"></a>
+  </footer> -->
+<script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+		<script src="js/jquery.cbpFWSlider.min.js"></script>
+    <!-- header fixed-->
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpFWSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease'
+				}
+				- destroy:
+				$( selector ).cbpFWSlider( 'destroy' );
+				*/
+
+				$( '#cbp-fwslider' ).cbpFWSlider();
+
+			} );
+		</script>
+		    <!-- header fixed-->
+    <script>
+        $(document).ready(function () {
+            $(window).bind('scroll', function () {
+                if ($(window).scrollTop() > 10) {
+                    $('header').addClass("fixed");
+
+                } else {
+                    $('header').removeClass("fixed ");
+
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.numbrr').keyup(function () {
+                var v = this.value;
+                if(v == "+" && v.length == 1) {
+                    return;
+                }
+                if($.isNumeric(v) === false) {
+                    this.value = this.value.slice(0,-1);
+                }
+            });
+        });
+    </script>
+    <script>
+        // jQuery version
+        $("input[type='number']").each(function(i, el) {
+            el.type = "text";
+            el.onfocus = function(){this.type="number";};
+            el.onblur = function(){this.type="text";};
+        });
+    </script>
+
+		<script src="js/classie.js"></script>
+		<script src="js/cbpAnimatedHeader.min.js"></script>
+</body>
+</html>
